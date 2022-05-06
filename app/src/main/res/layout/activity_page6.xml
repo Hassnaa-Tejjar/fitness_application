@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page6"
+    android:background="@color/bag2">
+   <androidx.appcompat.widget.Toolbar
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/bag2"
+       android:id="@+id/toolbarr"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="1.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.0"
+       >
+      <TextView
+          android:id="@+id/imaget"
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:background="@drawable/back"
+
+          />
+   </androidx.appcompat.widget.Toolbar>
+
+   <TextView
+       android:id="@+id/textView10"
+       android:layout_width="311dp"
+       android:layout_height="77dp"
+       android:text="     Créez le programme d'entraînement qui vous convient le mieux."
+       android:textSize="15dp"
+       android:textStyle="normal"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.73"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.232"
+       tools:ignore="MissingConstraints" />
+
+   <TextView
+       android:id="@+id/textView11"
+       android:layout_width="313dp"
+       android:layout_height="91dp"
+       android:layout_gravity="center"
+       android:fontFamily="sans-serif-black"
+       android:text="  Sélectionnez votre niveau de forme physique"
+       android:textColor="@color/black"
+       android:textSize="25dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.755"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.109" />
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="332dp"
+       android:layout_height="96dp"
+       android:backgroundTint="@color/txt1"
+       app:cardCornerRadius="40dp"
+     android:id="@+id/crd3"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.556"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.773">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="100dp"
+          android:layout_marginTop="8dp"
+          android:fontFamily="sans-serif-medium"
+          android:text="AVANCE"
+          android:textColor="@color/txt"
+          android:textSize="25dp" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="77dp"
+          android:layout_marginTop="50dp"
+          android:fontFamily="sans-serif-medium"
+          android:text="3-5 entrainements/semaine"
+          android:textColor="@color/txt"
+          android:textSize="15dp" />
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="332dp"
+       android:layout_height="96dp"
+       android:backgroundTint="@color/txt1"
+       app:cardCornerRadius="40dp"
+         android:id="@+id/crd2"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.551"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.563">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="80dp"
+          android:layout_marginTop="8dp"
+
+          android:fontFamily="sans-serif-medium"
+          android:text="INTERMEDIAIRE"
+          android:textColor="@color/txt"
+          android:textSize="25dp" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="77dp"
+          android:layout_marginTop="50dp"
+          android:fontFamily="sans-serif-medium"
+          android:text="1-2 entraînements/semaine"
+          android:textColor="@color/txt"
+          android:textSize="15dp" />
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="332dp"
+       android:layout_height="96dp"
+       android:backgroundTint="@color/txt1"
+       app:cardCornerRadius="40dp"
+       android:id="@+id/crd1"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.551"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.36">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="100dp"
+          android:layout_marginTop="8dp"
+
+          android:fontFamily="sans-serif-medium"
+          android:text="DEBUTANT"
+          android:textColor="@color/txt"
+          android:textSize="25dp" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:layout_marginTop="50dp"
+          android:fontFamily="sans-serif-medium"
+          android:text="Je viens de commencer à faire de l'exercice"
+          android:textColor="@color/txt"
+          android:textSize="15dp" />
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="240dp"
+       android:layout_height="56dp"
+       android:backgroundTint="@color/btn"
+       app:cardCornerRadius="50dp"
+       android:id="@+id/crd4"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.497"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.976"
+       android:clickable="true"
+       android:foreground="?attr/selectableItemBackground">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:fontFamily="sans-serif-black"
+          android:text="PROCHAIN"
+          android:textColor="@color/txt"
+          android:textSize="30dp" />
+   </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

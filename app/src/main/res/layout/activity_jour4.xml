@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jour4"
+    android:background="@color/bag2"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bag2"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/cardView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <TextView
+            android:id="@+id/rt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:layout_marginLeft="30dp"
+
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="Ce Jour  "
+            android:textColor="@color/bienvenue"
+            android:textSize="24dp"
+            android:textStyle="bold"></TextView>
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:padding="10dp"
+            android:background="@color/bag2">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView6"
+                android:layout_width="341dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/btn"
+                app:cardCornerRadius="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/petit"
+                    android:layout_width="175dp"
+                    android:layout_height="44dp"
+                    android:layout_marginLeft="80dp"
+                    android:gravity="center"
+                    android:text="Petit-déjeuner"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="50dp"
+                    android:text="- 1 tasse de thé ou de café noir sans sucre ni lait"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="312dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="83dp"
+                    android:text="- 2 tranche de pais complet avec des légumes (oignos,tomates,laitue,etc.)"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView5"
+                android:layout_width="339dp"
+                android:layout_height="143dp"
+                android:layout_marginTop="308dp"
+                android:backgroundTint="@color/btn"
+                app:cardCornerRadius="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/dej"
+                    android:layout_width="175dp"
+                    android:layout_height="44dp"
+                    android:layout_marginLeft="80dp"
+                    android:gravity="center"
+                    android:text="Déjeuner"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/t5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="50dp"
+                    android:text="- Quleques myrtilles, fraises,framboise ou mures"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/t6"
+                    android:layout_width="308dp"
+                    android:layout_height="52dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="91dp"
+                    android:text="- N'importe quelle poisson grillé ou vapeur ou fruits de mer(calmars,crabes,crevettes"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView9"
+                android:layout_width="345dp"
+                android:layout_height="135dp"
+                android:layout_marginTop="472dp"
+                android:backgroundTint="@color/btn"
+                app:cardCornerRadius="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/diner"
+                    android:layout_width="175dp"
+                    android:layout_height="44dp"
+                    android:layout_marginLeft="80dp"
+                    android:gravity="center"
+                    android:text="Diner"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/t8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="50dp"
+                    android:text="- Epis de mais cuits ou vapeur"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/t9"
+                    android:layout_width="318dp"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="80dp"
+                    android:text="- Salade de poulet (blan de poulet,grillé ou vapeur,avec quelques fruits ou léqumes)"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView1"
+                android:layout_width="336dp"
+                android:layout_height="118dp"
+                android:layout_marginTop="170dp"
+                android:backgroundTint="@color/btn"
+
+                app:cardCornerRadius="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/cas"
+                    android:layout_width="175dp"
+                    android:layout_height="44dp"
+                    android:layout_marginLeft="80dp"
+                    android:gravity="center"
+                    android:text="Encas"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="50dp"
+                    android:text="- Yaourt (allégé en graisses ou en sans sucre préférable"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

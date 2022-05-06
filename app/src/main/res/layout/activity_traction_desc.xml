@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Traction_desc"
+    android:background="@color/bag2"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animation"
+        android:textColor="@color/grey1"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="10dp"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="330dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="230dp"
+        android:src="@drawable/work2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Traction"
+        android:textColor="@color/grey1"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Durée"
+        android:textStyle="bold"
+        android:textColor="@color/grey1"
+        android:textSize="22dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="6dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:30"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/grey1"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-30dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bag2"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="la traction est un exercice physique consistant à hisser ses épaules au niveau d'une barre en la tenant par les mains. "
+                android:textStyle="normal"
+                android:layout_gravity="center"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:text="Les tractions ont pour objectif principal le développement des muscles du os et des bras .C'est un exercice polyarticulaire de musculation, élémentaire et trés populaire, car simple et efficace. il existe une variante consistant à faire l'exercice horizontalement"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textSize="16dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "870945572496",
+    "project_id": "fitnessapp-1346e",
+    "storage_bucket": "fitnessapp-1346e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870945572496:android:ef016bdf1575e403c23a15",
+        "android_client_info": {
+          "package_name": "ma.ensaf.fitnessapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870945572496-2t883td576sb3q6jt0mc8q8bla8tuaqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGsJcWCX7jx7XRdkTne_f4QevJpCzIH3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870945572496-2t883td576sb3q6jt0mc8q8bla8tuaqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page2"
+    android:background="@color/bag2">
+
+    <TextView
+        android:id="@+id/bienvenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="BIENVENUE"
+        android:textColor="@color/bienvenue"
+        android:textSize="27dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <TextView
+        android:layout_width="319dp"
+        android:id="@+id/aide"
+        android:layout_height="72dp"
+        android:fontFamily="sans-serif-black"
+        android:text="COMMENT PUIS-JE VOUS AIDER ?"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="332dp"
+        android:id="@+id/card1"
+        android:layout_height="96dp"
+        android:backgroundTint="@color/txt1"
+        app:cardCornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/perdrePoids"
+            android:fontFamily="sans-serif-medium"
+            android:text="PERDRE DU POIDS"
+            android:textColor="@color/txt"
+            android:textSize="25dp"
+            android:drawableEnd="@drawable/drop"
+            android:drawableRight="@drawable/drop"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/perdre"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Devenez mince de manière rapide and saine"
+            android:textColor="@color/txt"
+            android:textSize="15dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="332dp"
+        android:layout_height="96dp"
+        android:backgroundTint="@color/txt1"
+        app:cardCornerRadius="40dp"
+android:id="@+id/cardView2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.563">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/fort"
+            android:fontFamily="sans-serif-medium"
+            android:text="DEVENIR PLUS FORT"
+            android:textColor="@color/txt"
+            android:textSize="25dp"
+            android:drawableEnd="@drawable/drop"
+            android:drawableRight="@drawable/drop"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:id="@+id/plusFort"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Tonifiez-vous et remettez-vous en forme"
+            android:textColor="@color/txt"
+            android:textSize="15dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="332dp"
+        android:layout_height="96dp"
+        android:backgroundTint="@color/txt1"
+        app:cardCornerRadius="40dp"
+         android:id="@+id/cardView3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/forme"
+            android:fontFamily="sans-serif-medium"
+            android:text="RESTEZ EN FORME"
+            android:textColor="@color/txt"
+            android:textSize="25dp"
+            android:drawableEnd="@drawable/drop"
+            android:drawableRight="@drawable/drop"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/resteForme"
+            android:fontFamily="sans-serif-medium"
+            android:text="Restez en forme et améliorez votre santé"
+            android:textColor="@color/txt"
+            android:textSize="15dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="240dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/btn"
+        app:cardCornerRadius="50dp"
+        android:id="@+id/cardView4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PROCHAIN"
+            android:id="@+id/prochain"
+            android:textColor="@color/txt"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-black"
+            android:layout_gravity="center"
+           />
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

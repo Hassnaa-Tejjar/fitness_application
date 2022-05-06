@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QST"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bag2"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/cardView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+        <TextView
+            android:id="@+id/rt"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="-30dp"
+            android:background="@drawable/back"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="Questions communes"
+            android:textSize="24dp"
+            android:textColor="#AE6A47"
+            android:textStyle="bold"></TextView>
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="@color/btn"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="à propos de l'application"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="18dp"
+                android:textSize="16sp"/>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="343dp"
+                android:layout_height="54dp"
+                android:layout_marginLeft="10dp"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/grey1"
+                app:cardCornerRadius="30dp"
+                app:layout_constraintBottom_toTopOf="@+id/cardView1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="à quelle fréquece dois-je faire de l'exercices ?"
+                    android:textSize="17sp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:text="Vous pouvez répéter vos séances d'entrainement quotidiennes selon vos besoins. Pour les débutants,nous suggérons de faire de l'exercice une fois par jour, 2-3 fois par jour selon vos besoins."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:textSize="15sp"
+                android:text="Tous les entrainements sont concus par des professionnels,ils conviennent à tout le monde:les adolescents et les adultes, les hommes et les femmes."
+                />
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="343dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="10dp"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginTop="18dp"
+                android:backgroundTint="@color/grey1"
+                app:cardCornerRadius="30dp"
+                app:layout_constraintBottom_toTopOf="@+id/cardView1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <TextView
+                    android:layout_width="321dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="Un régime alimentaire est-il nécèssaire pour faire de l'exercice ?"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:text="Un régime  est toujours important pour faire de l'exercice. Combiné avec une bonne alimentation, vous pouvez maximiser vos gains d'entrainement."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:textSize="15sp"
+                android:text="Perdre du poids en 30 jours facilite les chôses. Des menus sont fournis par des professionnels, et ils sont tous 100 % gratuits ."
+                />
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="343dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="10dp"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginTop="18dp"
+                android:backgroundTint="@color/grey1"
+                app:cardCornerRadius="30dp"
+                app:layout_constraintBottom_toTopOf="@+id/cardView1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dois-je suivre strictement les menus fournis?"
+                    android:textSize="17sp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:text="Vous pouvez ajustez les aliments et la quantité selons vos besoins. nous pouvons fournir plus d'une collation ou aliment par repas, vous pouvez en manger qu'un seul ou tous."
+                />
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="343dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginTop="18dp"
+                android:backgroundTint="@color/grey1"
+                app:cardCornerRadius="30dp"
+                app:layout_constraintBottom_toTopOf="@+id/cardView1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Je débute, par ou commencer ?"
+                    android:textSize="17sp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:text="En tant que debutant, votre objectif doit être d'adapter votre corps à votre entainement, et de faire de l'entrainement une habitude quotidienne.L'intensité de l'exercice augmente étape par étape, cela sera facile de vous améliorer."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="à propos de l'entraînement"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="18dp"
+                android:textSize="16sp"/>
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="343dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="10dp"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/grey1"
+                app:cardCornerRadius="30dp"
+                app:layout_constraintBottom_toTopOf="@+id/cardView1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c'est trop dur pour moi"
+                    android:textSize="17sp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:text="ne vous inquiétez pas. Vous pouvez ajuster le nombre d'exercices ou remplacer les exercices-appuyer sur le bouton dans le coin supérieur droit de la page de liste d'éxercices, cliquez sur Modifier le programme."
+                />
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="343dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="10dp"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginTop="18dp"
+                android:backgroundTint="@color/grey1"
+                app:cardCornerRadius="30dp"
+                app:layout_constraintBottom_toTopOf="@+id/cardView1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Je ne me sens pas bien"
+                    android:textSize="17sp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:text="Si vous ne vous sentez pas bien pendant l'entrainement, veuillez vous arrêter immediatement et aller chez le médecin."
+                />
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="343dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="10dp"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginTop="18dp"
+                android:backgroundTint="@color/grey1"
+                app:cardCornerRadius="30dp"
+                app:layout_constraintBottom_toTopOf="@+id/cardView1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vous ne voyez pas de resultat?"
+                    android:textSize="17sp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:text="Cette application vous aidera à perdre du poids en toute sécurité.Vous ne pouvez pa perdre du poids du jour au lendemain.Puisque perdre du poids est un processus à long terme, voys devez vous y tenir. "
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
